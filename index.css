@@ -96,7 +96,9 @@ button{
     
     margin: 20px;
     padding: 5px;
-}:hover{
+}
+
+.end-btn:hover{
     color: #F94F6D;
 }
 
