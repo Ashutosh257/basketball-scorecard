@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: whitesmoke; */
+    background-color: #1B244A;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-header{
+    font-size: 40px;
+    margin-bottom: 12px;
+    color: #9AABD8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.scorecard{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: black;
+    width: 200px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+}
+
+.score-btn{
+    border: 2px dashed #9AABD8;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+
+    margin: 20px 10px;
+}
+
+.score-btn:hover{
+    color: #F94F6D
+}
+
+.score-manage{
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn{
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+    
+    margin: 20px;
+    padding: 5px;
+}
+
+.reset-btn:hover{
+    color: #F94F6D
+}
+
+.end-btn{
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+    
+    margin: 20px;
+    padding: 5px;
+}:hover{
+    color: #F94F6D;
+}
+
+.game-result{
+    font-size: 30px;
+    color: #F94F6D;
+
+    text-align: center;
+    margin: 20px;
+}
